@@ -38,7 +38,7 @@ react-native start
 adb devices:
 查看连接设备信息
  ![alt](../../imgs/adb2.png)
-- 连接该模拟器,5555是Genymotion的端口号
+- 连接该模拟器,5555是Genymotion的端口号 
 adb connect ip:5555
  ![alt](../../imgs/adb3.png)
 > 遇到的问题，找不到连接的设备
@@ -47,3 +47,7 @@ adb connect ip:5555
 依次执行以下命令
 adb usb
 adb kill-server
+##### 运行RN项目
+```
+react-native run-android
+```
