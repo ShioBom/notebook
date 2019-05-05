@@ -103,7 +103,7 @@
 ##### `git pull`
 - **git pull** 就是 `git fetch` 和 `git merge <just-fetched-branch>` 的缩写！
 - **git pull --rebase**就是`git  fetch` 和`git  rebase <just-fetched-branch>` 的简写！
-- 推送主分支
+    从服务器拉取最新的代码
 ####在本地创建、删除、发布项目分支
 过程
 1. 在本地新建一个分支： `git branch newBranch`

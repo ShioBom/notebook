@@ -10,16 +10,18 @@
 - 安装react native命令行工具
 ```
 yarn global add react-native-cli
+npm install -g react-native@1.2.0
 ```
+
 - 初始化项目
 ```js
-react-native init NewProject
+react-native init demo --verbose --version 0.55.4
 //NewProject为项目名
 ```
 ##### 5.安装Genymotion模拟器
 
 ##### 6.RN项目连接模拟器调试
-- 在RN项目目录的`android`目录下创建名为`local.propertiesd`的文件
+- 在RN项目目录的`android`目录下创建名为`local.properties`的文件
 ```js
 //在文件内添加的内容为
 sdk.dir=android sdk的目录路径
