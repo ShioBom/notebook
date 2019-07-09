@@ -15,8 +15,8 @@ git credential-manager uninstall
 ```
 ###### 常用git操作
 1. `git reflog`: 历史记录
-2. `git reset --soft e79fcfb`: 回退到某次提交，并且把commit的内容撤回到暂存区
-3. `git stash [save "msg"]`：储藏当前暂存的文件，[并提交储藏信息]
+2. `git reset --soft e79fcfb`: 回退到某次提交，gi并且把commit的内容撤回到暂存区
+3. `git stash [save "msg"]`：储藏当前暂存的文件，[并提交储藏信息],[]是选填的内容
    1. `git stash list`: 储藏列表
    2. `git stash apply stash@{0}`: 应用某次储藏(不会删除那一次)
    3. `git stash pop`: 应用并弹出栈顶的储藏
