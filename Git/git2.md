@@ -20,5 +20,6 @@ git credential-manager uninstall
    1. `git stash list`: 储藏列表
    2. `git stash apply stash@{0}`: 应用某次储藏(不会删除那一次)
    3. `git stash pop`: 应用并弹出栈顶的储藏
+   4. `git stash drop stash@{0}`:删除某次储藏
 4. `git status`：查看git状态
 
